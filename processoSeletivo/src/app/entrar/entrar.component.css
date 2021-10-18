@@ -1,0 +1,21 @@
+#img-bg{
+	background-image: url('https://images.madeiramadeira.com.br/product/images/24810342-mesa-de-escritorio-em-l-1-60x1-60m-com-2-gavetas-work30-compace540255-1-1_zoom-1500x1500.jpg?width=900&canvas=900,900&bg-color=FFFFFF');
+
+	min-height: 695px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-o:hover{
+	
+		background-color: 	#120a8f;
+		color: aliceblue;
+		
+}
+	
+.btn-o{
+
+	border-color: #120a8f;
+	color: #120a8f;
+	
+}
