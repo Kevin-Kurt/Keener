@@ -1,0 +1,49 @@
+<div class="tudo container-fluid">
+
+    <div class="row">
+
+        <div class="caixa ">
+
+            <h1 class="  letras text-center form-group mt-10">Cadastro de novos produtos</h1>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+
+
+
+                    <div class="form-group mt-3">
+                        <label  class="letras" for="produto">Nome do produto: </label>
+                        <input id="nome" [(ngModel)]='estoque.nome' class="form-control mt-2" type="text" placeholder="Nome">
+
+                    </div>
+                    <div class="form-group mt-3">
+                        <label  class="letras" for="código">Código do produto: </label>
+                        <input id="codigo" [(ngModel)]='estoque.produto' class="form-control mt-2" for="text" type="text" placeholder="Código">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label class="letras" for="preço">Preço do produto: </label>
+                        <input id="preco" [(ngModel)]='estoque.preco' class=" btpreco form-control mt-2" for="text" type="text" placeholder="Preço">
+                    </div>
+                    
+                  
+
+                        <div class="d-flex justify-content-center mt-3" >
+                            <button class="btn btn-success me-5 " (click)='cadastrar()'>Cadastrar</button>
+                            <button class="btn btn-warning me-5 " (click)='tabela()'>Ver estoque</button>
+                        </div>
+
+                        <hr class="mt-5 mb-5">
+
+
+                  
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+.principal{
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: black;
+}
+.table{
+    margin-top: 20px;
+    
+}
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
