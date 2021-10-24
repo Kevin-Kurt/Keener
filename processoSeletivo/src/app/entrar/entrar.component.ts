@@ -20,6 +20,7 @@ export class EntrarComponent implements OnInit {
 
   ngOnInit() {
     window.scroll(0,0)
+   
   }
   entrar(){
     this.auth.entrar(this.userLogin).subscribe((resp: UserLogin)=>{

@@ -27,6 +27,7 @@ export class InicioComponent implements OnInit {
       (document.getElementById('nome') as HTMLInputElement).value = '';
       (document.getElementById('codigo') as HTMLInputElement).value = '';
       (document.getElementById('preco') as HTMLInputElement).value = ''
+      
     }, erro =>{ 
       
       if(erro.status == 500){
@@ -38,6 +39,11 @@ export class InicioComponent implements OnInit {
   tabela(){     
     this.router.navigate(['/estoque'])
   }
+
+  login(){     
+    this.router.navigate(['/entrar'])
+  }
+
 
   
 }

@@ -21,13 +21,16 @@ export class estoqueService {
   
 
     getByIdEstoque(id: number): Observable<estoque>{
-        return this.http.get<estoque>('http://localhost:8080/estoque${id}', this.token)
+        return this.http.get<estoque>(`http://localhost:8080/estoque/${id}`, this.token)
     }
   
     getAllEstoque(): Observable<estoque[]> {
         return this.http.get<estoque[]>('http://localhost:8080/estoque')
     }
 
+    deletePostagem(id: number){
+        return this.http.delete(`http://localhost:8080/estoque/${id}`, this.token)
+    }
    
 
 }
